@@ -273,17 +273,18 @@ public class DamienDots_Main extends PApplet {
         background(255);
         textAlign(CENTER);
 
-        textSize(248);
+        //textSize(248);
+        textSize(width/10.0f);
         fill(0, 20);
-        text("DamienDots", width / 2, height / 2 - 100);
+        text("DamienSpots", width / 2f, height / 2f - 100);
 
-        textSize(48);
+        textSize(width/20.0f);
         fill(0,20);
-        text("by rich.gg", width / 2 + 560, height / 2 - 100);
+        text("rich.gg", width / 2f, height  - (width/40.0f));
 
         textSize(48);
         fill(108);
-        text("touch me", width / 2, height / 2 + 50);
+        text("touch me", width / 2f, height / 2f + 50);
     }
 
     void hirst() {
